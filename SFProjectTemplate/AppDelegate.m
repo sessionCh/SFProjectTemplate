@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SFTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,30 @@
 
 @implementation AppDelegate
 
++ (void)initialize
+{
+    [logicShareInstance load];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    SFTabBarController *tabBarVC = [[SFTabBarController alloc] init];
+    self.window.rootViewController = tabBarVC;
+    [self.window makeKeyAndVisible];
+
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options
+{
+    // 微信 相关回调
+    [[logicShareInstance getWeChatManager] application:app openURL:url options:options];
+    // qq 相关回调
+    [[logicShareInstance getQQManager] application:app openURL:url options:options];
+    // 分享 相关回调（单独提取出来）
+    [[logicShareInstance getShareManager] application:app openURL:url options:options];
+    
     return YES;
 }
 

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SFDropDownHeaderCell">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="30"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="30"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机数码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tie-fP-T6z">
+                        <rect key="frame" x="21" y="4.5" width="68" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="分类-角标-默认" translatesAutoresizingMaskIntoConstraints="NO" id="UmW-Gv-6tB">
+                        <rect key="frame" x="94" y="14.5" width="6" height="6"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="UmW-Gv-6tB" secondAttribute="height" multiplier="1:1" id="Moc-TM-AcL"/>
+                            <constraint firstAttribute="width" constant="6" id="No5-ar-Pkd"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="Tie-fP-T6z" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" constant="-5" id="DZX-az-hv6"/>
+                <constraint firstItem="Tie-fP-T6z" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="EK2-WQ-tUD"/>
+                <constraint firstItem="UmW-Gv-6tB" firstAttribute="bottom" secondItem="Tie-fP-T6z" secondAttribute="bottom" constant="-4" id="Weg-Ir-JF0"/>
+                <constraint firstItem="UmW-Gv-6tB" firstAttribute="leading" secondItem="Tie-fP-T6z" secondAttribute="trailing" constant="5" id="t9V-mq-wi7"/>
+            </constraints>
+            <size key="customSize" width="50" height="51"/>
+            <connections>
+                <outlet property="img" destination="UmW-Gv-6tB" id="9Ej-7W-zmO"/>
+                <outlet property="lab" destination="Tie-fP-T6z" id="4Xk-sW-ceq"/>
+            </connections>
+            <point key="canvasLocation" x="221" y="160.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="分类-角标-默认" width="3" height="3"/>
+    </resources>
+</document>

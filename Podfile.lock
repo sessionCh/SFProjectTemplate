@@ -1,0 +1,105 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Bugly (2.1)
+  - CRToast (0.0.9)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - HYBNetworking (3.0.0):
+    - AFNetworking (~> 3.0.0)
+  - IQKeyboardManager (4.0.1)
+  - LKDBHelper (HEAD based on 2.2):
+    - FMDB
+  - Masonry (1.0.0)
+  - MJRefresh (3.1.0)
+  - RegExCategories (1.0)
+  - SDAutoLayout (1.52)
+  - SDVersion (2.6)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SVProgressHUD (2.0.3)
+  - TAPKeyboardPop (0.1.2)
+  - Typeset (3.2.0)
+  - UMengSocial (5.0)
+  - YLGIFImage (0.11)
+  - YYModel (1.0.3)
+  - YYText (1.0.4)
+
+DEPENDENCIES:
+  - Aspects (~> 1.4.1)
+  - BlocksKit (~> 2.2.5)
+  - Bugly (~> 2.1)
+  - CRToast (~> 0.0.9)
+  - HYBNetworking (~> 3.0.0)
+  - IQKeyboardManager (~> 4.0.1)
+  - LKDBHelper (HEAD)
+  - Masonry (~> 1.0.0)
+  - MJRefresh (~> 3.1.0)
+  - RegExCategories (~> 1.0)
+  - SDAutoLayout (~> 1.52)
+  - SDVersion (~> 2.6)
+  - SDWebImage (~> 3.7)
+  - SVProgressHUD (~> 2.0.3)
+  - TAPKeyboardPop (~> 0.1.2)
+  - Typeset (~> 3.2.0)
+  - UMengSocial (~> 5.0)
+  - YLGIFImage (~> 0.11)
+  - YYModel (~> 1.0.3)
+  - YYText (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Bugly: bea72755cea96604658cc480b4efe85576c8aa2c
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  HYBNetworking: f4f74200d78b6abb92128778ea8ef6e1b2de782f
+  IQKeyboardManager: 0c11a0cb402a621f7aa1aff506f60ab6d2388969
+  LKDBHelper: 4e1fbd1cfd8f636ffa1a69520f8ccf6d231c4931
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
+  SDAutoLayout: 7c92e8f149059e80010507e471e1b4b6c85a62bb
+  SDVersion: c036f7890279d188c17f5701b9feea0d93b9f8ee
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  TAPKeyboardPop: ffcc077663f04905bb086c47eea16c134d2a1ec8
+  Typeset: d4d9755f57abf53adc09348e18bb5be099dd7e66
+  UMengSocial: 48b67179c492a8cf7803fbb0438b8f55432e2fc1
+  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
+  YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
+  YYText: 41761822986179828a27ccf82aa97c7b5483c2e2
+
+COCOAPODS: 0.39.0

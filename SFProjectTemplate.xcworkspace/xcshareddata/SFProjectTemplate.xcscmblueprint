@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "151a885f-3fcc-f34a-a0f5-f20a7b2803b9++1274" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "151a885f-3fcc-f34a-a0f5-f20a7b2803b9++1274" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0AA9933A-80F0-4273-854C-EF72BAFC6ADE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "151a885f-3fcc-f34a-a0f5-f20a7b2803b9++1274" : "SFProjectTemplate\/SFProjectTemplate\/Vender\/CrashReporter\/CrashReporter.framework\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SFProjectTemplate",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SFProjectTemplate.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/tc-svn.tencent.com\/tr\/tr_qqmaster_rep",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "151a885f-3fcc-f34a-a0f5-f20a7b2803b9++1274"
+    }
+  ]
+}

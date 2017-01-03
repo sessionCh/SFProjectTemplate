@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SFDropDownSingleCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="全部分类" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2A-d6-ymB">
+                        <frame key="frameInset" minX="15" minY="11" width="60" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="商品分类条件选择" translatesAutoresizingMaskIntoConstraints="NO" id="Zdq-7P-gPX">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Zdq-7P-gPX" secondAttribute="height" multiplier="4:3" id="7py-Ra-nf0"/>
+                            <constraint firstAttribute="width" constant="15" id="hzk-4W-5fV"/>
+                            <constraint firstAttribute="height" constant="24" id="moB-Bf-6V0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="moB-Bf-6V0"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="F2A-d6-ymB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="3Rq-A5-ETr"/>
+                <constraint firstItem="F2A-d6-ymB" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="DLh-Pd-a9x"/>
+                <constraint firstItem="Zdq-7P-gPX" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="osN-cw-U4g"/>
+                <constraint firstAttribute="trailing" secondItem="Zdq-7P-gPX" secondAttribute="trailing" constant="15" id="p1g-NM-LHv"/>
+            </constraints>
+            <connections>
+                <outlet property="img" destination="Zdq-7P-gPX" id="fBC-Wv-l5C"/>
+                <outlet property="lab" destination="F2A-d6-ymB" id="gEy-1U-27s"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="商品分类条件选择" width="16" height="12"/>
+    </resources>
+</document>
